@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844D826423A8E59600CC7047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D826323A8E59600CC7047 /* AppDelegate.swift */; };
+		844D826823A8E59600CC7047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D826723A8E59600CC7047 /* ViewController.swift */; };
+		844D826B23A8E59600CC7047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844D826923A8E59600CC7047 /* Main.storyboard */; };
+		844D826E23A8E59600CC7047 /* VTSiriApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 844D826C23A8E59600CC7047 /* VTSiriApp.xcdatamodeld */; };
+		844D827023A8E5B100CC7047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844D826F23A8E5B100CC7047 /* Assets.xcassets */; };
+		844D827323A8E5B100CC7047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844D827123A8E5B100CC7047 /* LaunchScreen.storyboard */; };
+		844D827E23A8E5B100CC7047 /* VTSiriAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D827D23A8E5B100CC7047 /* VTSiriAppTests.swift */; };
+		844D828923A8E5B100CC7047 /* VTSiriAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D828823A8E5B100CC7047 /* VTSiriAppUITests.swift */; };
+		844D829A23A8E95B00CC7047 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844D829823A8E95B00CC7047 /* Intents.framework */; };
+		844D829B23A8E95B00CC7047 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844D829923A8E95B00CC7047 /* IntentsUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		844D827A23A8E5B100CC7047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844D825823A8E59600CC7047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844D825F23A8E59600CC7047;
+			remoteInfo = VTSiriApp;
+		};
+		844D828523A8E5B100CC7047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844D825823A8E59600CC7047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844D825F23A8E59600CC7047;
+			remoteInfo = VTSiriApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		844D826023A8E59600CC7047 /* VTSiriApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VTSiriApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844D826323A8E59600CC7047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		844D826723A8E59600CC7047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		844D826A23A8E59600CC7047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844D826D23A8E59600CC7047 /* VTSiriApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VTSiriApp.xcdatamodel; sourceTree = "<group>"; };
+		844D826F23A8E5B100CC7047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844D827223A8E5B100CC7047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		844D827423A8E5B100CC7047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844D827923A8E5B100CC7047 /* VTSiriAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VTSiriAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		844D827D23A8E5B100CC7047 /* VTSiriAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTSiriAppTests.swift; sourceTree = "<group>"; };
+		844D827F23A8E5B100CC7047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844D828423A8E5B100CC7047 /* VTSiriAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VTSiriAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		844D828823A8E5B100CC7047 /* VTSiriAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTSiriAppUITests.swift; sourceTree = "<group>"; };
+		844D828A23A8E5B100CC7047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844D829623A8E90200CC7047 /* VTSiriApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VTSiriApp.entitlements; sourceTree = "<group>"; };
+		844D829823A8E95B00CC7047 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		844D829923A8E95B00CC7047 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844D825D23A8E59600CC7047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844D829A23A8E95B00CC7047 /* Intents.framework in Frameworks */,
+				844D829B23A8E95B00CC7047 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844D827623A8E5B100CC7047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844D828123A8E5B100CC7047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844D825723A8E59600CC7047 = {
+			isa = PBXGroup;
+			children = (
+				844D826223A8E59600CC7047 /* VTSiriApp */,
+				844D827C23A8E5B100CC7047 /* VTSiriAppTests */,
+				844D828723A8E5B100CC7047 /* VTSiriAppUITests */,
+				844D826123A8E59600CC7047 /* Products */,
+				844D829723A8E95B00CC7047 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		844D826123A8E59600CC7047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844D826023A8E59600CC7047 /* VTSiriApp.app */,
+				844D827923A8E5B100CC7047 /* VTSiriAppTests.xctest */,
+				844D828423A8E5B100CC7047 /* VTSiriAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844D826223A8E59600CC7047 /* VTSiriApp */ = {
+			isa = PBXGroup;
+			children = (
+				844D829623A8E90200CC7047 /* VTSiriApp.entitlements */,
+				844D826323A8E59600CC7047 /* AppDelegate.swift */,
+				844D826723A8E59600CC7047 /* ViewController.swift */,
+				844D826923A8E59600CC7047 /* Main.storyboard */,
+				844D826F23A8E5B100CC7047 /* Assets.xcassets */,
+				844D827123A8E5B100CC7047 /* LaunchScreen.storyboard */,
+				844D827423A8E5B100CC7047 /* Info.plist */,
+				844D826C23A8E59600CC7047 /* VTSiriApp.xcdatamodeld */,
+			);
+			path = VTSiriApp;
+			sourceTree = "<group>";
+		};
+		844D827C23A8E5B100CC7047 /* VTSiriAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				844D827D23A8E5B100CC7047 /* VTSiriAppTests.swift */,
+				844D827F23A8E5B100CC7047 /* Info.plist */,
+			);
+			path = VTSiriAppTests;
+			sourceTree = "<group>";
+		};
+		844D828723A8E5B100CC7047 /* VTSiriAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				844D828823A8E5B100CC7047 /* VTSiriAppUITests.swift */,
+				844D828A23A8E5B100CC7047 /* Info.plist */,
+			);
+			path = VTSiriAppUITests;
+			sourceTree = "<group>";
+		};
+		844D829723A8E95B00CC7047 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				844D829823A8E95B00CC7047 /* Intents.framework */,
+				844D829923A8E95B00CC7047 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844D825F23A8E59600CC7047 /* VTSiriApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844D828D23A8E5B100CC7047 /* Build configuration list for PBXNativeTarget "VTSiriApp" */;
+			buildPhases = (
+				844D825C23A8E59600CC7047 /* Sources */,
+				844D825D23A8E59600CC7047 /* Frameworks */,
+				844D825E23A8E59600CC7047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VTSiriApp;
+			productName = VTSiriApp;
+			productReference = 844D826023A8E59600CC7047 /* VTSiriApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		844D827823A8E5B100CC7047 /* VTSiriAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844D829023A8E5B100CC7047 /* Build configuration list for PBXNativeTarget "VTSiriAppTests" */;
+			buildPhases = (
+				844D827523A8E5B100CC7047 /* Sources */,
+				844D827623A8E5B100CC7047 /* Frameworks */,
+				844D827723A8E5B100CC7047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844D827B23A8E5B100CC7047 /* PBXTargetDependency */,
+			);
+			name = VTSiriAppTests;
+			productName = VTSiriAppTests;
+			productReference = 844D827923A8E5B100CC7047 /* VTSiriAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		844D828323A8E5B100CC7047 /* VTSiriAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844D829323A8E5B100CC7047 /* Build configuration list for PBXNativeTarget "VTSiriAppUITests" */;
+			buildPhases = (
+				844D828023A8E5B100CC7047 /* Sources */,
+				844D828123A8E5B100CC7047 /* Frameworks */,
+				844D828223A8E5B100CC7047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844D828623A8E5B100CC7047 /* PBXTargetDependency */,
+			);
+			name = VTSiriAppUITests;
+			productName = VTSiriAppUITests;
+			productReference = 844D828423A8E5B100CC7047 /* VTSiriAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844D825823A8E59600CC7047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					844D825F23A8E59600CC7047 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					844D827823A8E5B100CC7047 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 844D825F23A8E59600CC7047;
+					};
+					844D828323A8E5B100CC7047 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 844D825F23A8E59600CC7047;
+					};
+				};
+			};
+			buildConfigurationList = 844D825B23A8E59600CC7047 /* Build configuration list for PBXProject "VTSiriApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844D825723A8E59600CC7047;
+			productRefGroup = 844D826123A8E59600CC7047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844D825F23A8E59600CC7047 /* VTSiriApp */,
+				844D827823A8E5B100CC7047 /* VTSiriAppTests */,
+				844D828323A8E5B100CC7047 /* VTSiriAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844D825E23A8E59600CC7047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844D827323A8E5B100CC7047 /* LaunchScreen.storyboard in Resources */,
+				844D827023A8E5B100CC7047 /* Assets.xcassets in Resources */,
+				844D826B23A8E59600CC7047 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844D827723A8E5B100CC7047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844D828223A8E5B100CC7047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844D825C23A8E59600CC7047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844D826E23A8E59600CC7047 /* VTSiriApp.xcdatamodeld in Sources */,
+				844D826823A8E59600CC7047 /* ViewController.swift in Sources */,
+				844D826423A8E59600CC7047 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844D827523A8E5B100CC7047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844D827E23A8E5B100CC7047 /* VTSiriAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844D828023A8E5B100CC7047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844D828923A8E5B100CC7047 /* VTSiriAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		844D827B23A8E5B100CC7047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844D825F23A8E59600CC7047 /* VTSiriApp */;
+			targetProxy = 844D827A23A8E5B100CC7047 /* PBXContainerItemProxy */;
+		};
+		844D828623A8E5B100CC7047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844D825F23A8E59600CC7047 /* VTSiriApp */;
+			targetProxy = 844D828523A8E5B100CC7047 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		844D826923A8E59600CC7047 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844D826A23A8E59600CC7047 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844D827123A8E5B100CC7047 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844D827223A8E5B100CC7047 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844D828B23A8E5B100CC7047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		844D828C23A8E5B100CC7047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844D828E23A8E5B100CC7047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VTSiriApp/VTSiriApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BWEH7ZFV8B;
+				INFOPLIST_FILE = VTSiriApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vineet.weboniselab.VTSiriApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		844D828F23A8E5B100CC7047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VTSiriApp/VTSiriApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BWEH7ZFV8B;
+				INFOPLIST_FILE = VTSiriApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vineet.weboniselab.VTSiriApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		844D829123A8E5B100CC7047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BWEH7ZFV8B;
+				INFOPLIST_FILE = VTSiriAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vineet.weboniselab.VTSiriAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VTSiriApp.app/VTSiriApp";
+			};
+			name = Debug;
+		};
+		844D829223A8E5B100CC7047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BWEH7ZFV8B;
+				INFOPLIST_FILE = VTSiriAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vineet.weboniselab.VTSiriAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VTSiriApp.app/VTSiriApp";
+			};
+			name = Release;
+		};
+		844D829423A8E5B100CC7047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BWEH7ZFV8B;
+				INFOPLIST_FILE = VTSiriAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vineet.weboniselab.VTSiriAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VTSiriApp;
+			};
+			name = Debug;
+		};
+		844D829523A8E5B100CC7047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BWEH7ZFV8B;
+				INFOPLIST_FILE = VTSiriAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vineet.weboniselab.VTSiriAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VTSiriApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844D825B23A8E59600CC7047 /* Build configuration list for PBXProject "VTSiriApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844D828B23A8E5B100CC7047 /* Debug */,
+				844D828C23A8E5B100CC7047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844D828D23A8E5B100CC7047 /* Build configuration list for PBXNativeTarget "VTSiriApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844D828E23A8E5B100CC7047 /* Debug */,
+				844D828F23A8E5B100CC7047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844D829023A8E5B100CC7047 /* Build configuration list for PBXNativeTarget "VTSiriAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844D829123A8E5B100CC7047 /* Debug */,
+				844D829223A8E5B100CC7047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844D829323A8E5B100CC7047 /* Build configuration list for PBXNativeTarget "VTSiriAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844D829423A8E5B100CC7047 /* Debug */,
+				844D829523A8E5B100CC7047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		844D826C23A8E59600CC7047 /* VTSiriApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				844D826D23A8E59600CC7047 /* VTSiriApp.xcdatamodel */,
+			);
+			currentVersion = 844D826D23A8E59600CC7047 /* VTSiriApp.xcdatamodel */;
+			path = VTSiriApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 844D825823A8E59600CC7047 /* Project object */;
+}
